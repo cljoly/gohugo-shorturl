@@ -16,7 +16,10 @@
 <!DOCTYPE html>
 <html>
 
-{{ $to = .Params.shortto }}
+{{ $to := .Params.shortto }}
+{{ if eq $to nil }}
+   {{ errorf "shortto variable must be defined for %q" .Page }}
+{{ end }}
 
 <head>
     <title>Redirect to {{ $to }}</title>
@@ -25,5 +28,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="refresh" content="0; url={{ $to }}" />
 </head>
+
+<body class="">
+    <div class ="content">
+    {{ block "main" . }}
+    {{ end }}
+    </div>
+</body>
 
 </html>
