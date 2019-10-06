@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ $to := .Params.shortto }}
+{{ if eq $to nil }}
+   {{ errorf "shortto variable must be defined for %q" .Page }}
+{{ end }}
+<h1>Redirecting to <a href="{{ $to }}">{{ $to }}</a></h1>
+  {{ .Content }}
+{{ end }}
+
