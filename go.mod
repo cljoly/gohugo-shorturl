@@ -1,3 +1,3 @@
-module github.com/leowzukw/gohugo-shorturl
+module joly.pw/gohugo-shorturl
 
 go 1.13
