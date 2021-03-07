@@ -26,7 +26,7 @@ Imagine we want to create the short url *https://my.site/a* and to have it redir
 hugo new --kind shorturl content/a.md
 ```
 and then edit `content/a.md`:
-```
+``` yaml
 ---
 title: "A"
 date: 2021-03-07T13:57:13Z
