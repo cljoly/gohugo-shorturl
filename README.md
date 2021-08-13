@@ -47,3 +47,20 @@ shortto: "https://gohugo.io/content-management/archetypes/#directory-based-arche
 ```
 
 Then deploy *my.site* and open *https://my.site/a*, you will be redirected!
+
+## Other parameters
+
+See https://developers.google.com/search/docs/advanced/robots/robots_meta_tag?hl=en#directives
+
+## Contribute
+
+You may use a local version of this module in hugo like this:
+
+```toml
+[module]
+replacements = "joly.pw/gohugo-shorturl -> /some/path/gohugo-shorturl"
+[[module.imports]]
+path = "joly.pw/gohugo-shorturl"
+```
+
+Please consider sending a PR with your patches, it’s always appreciated and will save you the trouble of maintaining the changes on your own!

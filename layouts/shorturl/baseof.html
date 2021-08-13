@@ -8,5 +8,15 @@
 {{ end }}
     <title>Redirecting</title>
     <link rel="canonical" href="{{ $to }}"/>
-    <meta name="robots" content="noindex">
+    {{- $robots := slice }}
+    {{- if .Params.noindex }}
+    {{- $robots := $robots | append "noindex" }}
+    {{- end }}
+    {{- if .Params.nofollow }}
+    {{- $robots := $robots | append "nofollow" }}
+    {{- end }}
+
+    {{- if ne (len $robots) 0 }}
+    <meta name="robots" content="{{ delimit $robots "," }}">
+    {{- end }}
     <meta http-equiv="refresh" content="0; url={{ $to }}" />
