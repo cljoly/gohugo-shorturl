@@ -10,10 +10,10 @@
     <link rel="canonical" href="{{ $to }}"/>
     {{- $robots := slice }}
     {{- if .Params.noindex }}
-    {{- $robots := $robots | append "noindex" }}
+    {{- $robots = $robots | append "noindex" }}
     {{- end }}
     {{- if .Params.nofollow }}
-    {{- $robots := $robots | append "nofollow" }}
+    {{- $robots = $robots | append "nofollow" }}
     {{- end }}
 
     {{- if ne (len $robots) 0 }}
