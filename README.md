@@ -11,12 +11,13 @@ end_insert -->
 
 ## Install
 
-If you haven’t used hugo modules before:
+If you haven’t used hugo modules before (you need the go compiler):
 ```
 hugo mod init <my-module-path>
 ```
 more details in [hugo docs](https://gohugo.io/hugo-modules/use-modules/).
 
+Then just:
 ```
 hugo mod get -u -v joly.pw/gohugo-shorturl
 ```
