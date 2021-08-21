@@ -1,4 +1,13 @@
-# gohugo-shorturl
+<!-- insert
+---
+title: GoHugo Shorturl
+date: 2021-08-21T16:25:33
+gometa: "joly.pw/gohugo-shorturl git https://github.com/cljoly/gohugo-shorturl"
+---
+end_insert -->
+<!-- remove -->
+# GoHugo Shorturl
+<!-- end_remove -->
 
 ## Install
 
