@@ -4,10 +4,13 @@ title: GoHugo Shorturl
 date: 2021-08-21T16:25:33
 gometa: "joly.pw/gohugo-shorturl git https://github.com/cljoly/gohugo-shorturl"
 ---
+{{< github_badge >}}
 end_insert -->
 <!-- remove -->
 # GoHugo Shorturl
 <!-- end_remove -->
+
+![Min Hugo Version: 0.77.0](https://img.shields.io/badge/min%20Hugo%20version-0.78.0-lightgrey?logo=hugo)
 
 ## Install
 
