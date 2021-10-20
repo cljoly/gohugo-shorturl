@@ -3,6 +3,8 @@
 title: GoHugo Shorturl
 date: 2021-08-21T16:25:33
 gometa: "joly.pw/gohugo-shorturl git https://github.com/cljoly/gohugo-shorturl"
+tags:
+- Hugo
 description: "🔗 Hugo module to create shorturls (so your shorturl like my.site/short can redirect to asitewithalong.name/andanevenlongerpath)"
 ---
 {{< github_badge >}}
