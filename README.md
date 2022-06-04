@@ -15,6 +15,8 @@ end_insert -->
 
 ![Min Hugo Version: 0.77.0](https://img.shields.io/badge/min%20Hugo%20version-0.78.0-lightgrey?logo=hugo)
 
+Create shorter urls to external resources for your own convenience or to your own content, to get the [benefits described by Derek Sivers](https://sive.rs/su).
+
 ## Install
 
 If you haven’t used hugo modules before (you need the go compiler):
