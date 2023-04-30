@@ -25,7 +25,7 @@ hugo mod init <my-module-path>
 ```
 more details in [hugo docs](https://gohugo.io/hugo-modules/use-modules/).
 
-Then just:
+Then run:
 ```
 hugo mod get -u -v joly.pw/gohugo-shorturl
 ```
